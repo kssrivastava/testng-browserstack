@@ -1,26 +1,24 @@
 {
-  "server": "hub-cloud.browserstack.com",
-  "user": "BROWSERSTACK_USERNAME",
-  "key": "BROWSERSTACK_ACCESS_KEY",
-
-  "capabilities": {
-    "build": "testng-browserstack",
-    "name": "suite_test",
-    "browserstack.debug": true
-  },
-
-  "environments": {
-    "chrome": {
-      "browser": "chrome"
-    },
-    "firefox": {
-      "browser": "firefox"
-    },
-    "safari": {
-      "browser": "safari"
-    },
-    "ie": {
-      "browser": "internet explorer"
-    }
-  }
+	"server": "hub-cloud.browserstack.com",
+	"user": "khushboossrivast1",
+	"key": "DgZxZqGzSwCHPg31yEs4",
+	"capabilities": {
+		"build": "testng-browserstack",
+		"name": "suite_test",
+		"browserstack.debug": true
+	},
+	"environments": {
+		"chrome": {
+			"browser": "chrome"
+		},
+		"firefox": {
+			"browser": "firefox"
+		},
+		"safari": {
+			"browser": "safari"
+		},
+		"ie": {
+			"browser": "internet explorer"
+		}
+	}
 }
