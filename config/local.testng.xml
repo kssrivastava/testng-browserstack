@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Local">
     <test name="LocalTest">
-        <parameter name="config" value="local.conf.json"/>
-        <parameter name="environment" value="chrome"/>
+        <parameter name="config" value="os-browser-platform"/>
+        <parameter name="environment" value="BSosSierraS"/>
         <classes>
             <class name="com.browserstack.LocalTest"/>
         </classes>
